@@ -118,10 +118,12 @@ El script incluye manejo de excepciones que:
 
 ---
 
-![Planos del proyecto](./planos.png)
-
 ## Notas Importantes
 
 - El script espera máximo 20 segundos a que los elementos de la página carguen.
 - El modo headless permite ejecutar el script sin que se abra una ventana de Chrome visible.
 - La resolución de 1920x1080 asegura que la página se renderice correctamente para la extracción de datos.
+
+---
+
+![Planos del proyecto](./planos.png)
