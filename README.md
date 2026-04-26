@@ -27,9 +27,14 @@ Este es el portal oficial de consulta de recibos de la empresa Distriluz, que op
 
 1. **Selección de tipo de consulta:** El script te pregunta si deseas buscar por número de suministro (opción 1) o por DNI (opción 2).
 
+![Planos del proyecto](./imgs/ingresar-datos.png)
+
+
 2. **Ingreso de datos:** Solicita el número correspondiente según la opción seleccionada.
 
 3. **Automatización del navegador:** Abre Chrome en modo headless (sin interfaz visible) y navega a la URL de Distriluz.
+
+![Planos del proyecto](./imgs/navegacion.png)
 
 4. **Interacción con el formulario:**
    - Selecciona el tipo de búsqueda en el dropdown (`cmbType`)
@@ -39,6 +44,8 @@ Este es el portal oficial de consulta de recibos de la empresa Distriluz, que op
 5. **Extracción de datos:** Espera a que cargue la imagen del recibo (`imgRecibo`), la cual viene codificada en base64.
 
 6. **Descarga del recibo:** Decodifica la imagen base64 y la guarda como archivo PNG local.
+
+![Planos del proyecto](./imgs/resultado.png)
 
 ---
 
@@ -126,4 +133,4 @@ El script incluye manejo de excepciones que:
 
 ---
 
-![Planos del proyecto](./planos.png)
+![Planos del proyecto](./imgs/planos.png)
