@@ -1,7 +1,5 @@
 # Consulta de Recibos de Luz - Distriluz Perú
 
-![Planos del proyecto](./planos.png)
-
 **Autor:** zDxniel  
 **TikTok:** [@DevBujito](https://tiktok.com/@DevBujito)
 
@@ -119,6 +117,8 @@ El script incluye manejo de excepciones que:
 - Cierra el navegador automáticamente al finalizar (incluso si hay errores)
 
 ---
+
+![Planos del proyecto](./planos.png)
 
 ## Notas Importantes
 
